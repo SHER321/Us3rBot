@@ -41,7 +41,7 @@ async def _(event):
             await event.edit("Hacking..")
             animation_chars = [
         
-            "`Connecting To Hacked Private Server...`",
+            "`Connecting To Telegram Database....`",
             "`Target Selected.`",
             "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -51,7 +51,9 @@ async def _(event):
             "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
             "`Hacking... 100%\n█████████HACKED███████████ `",
-            "`Targeted Account Hacked...\n\nPay 69$ To` @Aid3n_Pearce `To Remove this hack..`"
+            "`Packing Cache Of User's Data Into My Local Directory`", 
+            "`Process Completed With No Errors`",    
+            "`Targeted Account Hacked...\n\nPay 69$ To` @Aid3n_Pearce `To Stay Safe..`"
             ]
 
             for i in animation_ttl:
