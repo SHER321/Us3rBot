@@ -60,7 +60,7 @@ async def _(event):
 
                 await asyncio.sleep(animation_interval)
 
-                await event.edit(animation_chars[i % 11])
+                await event.edit(animation_chars[i % 13])
     else:
-        await event.edit("No User is Defined\n Can't hack account")
+        await event.edit("No User is Defined\n This Cannot Be Proceeded")
             
