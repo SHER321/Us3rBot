@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "GujjuBot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Aid3n"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 @borg.on(admin_cmd(pattern="kang ?(.*)"))
@@ -50,15 +50,15 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    #packname = f"JayukeStickers"
-    #packshortname = f"GujjuBot_{userid}_ns"  # format: Uni_Borg_userid
-    if userid == 948408212:
-        packname = f"JayukeStickers"
-        packshortname = "Jayu_ke_locker_me"
+    #packname = f"@Aid3N_Pearce Str Pack"
+    #packshortname = f"AidenID_{userid}_ns"  # format: Uni_Borg_userid
+    if userid == 636052499:
+        packname = f"AidenPearce Own Stickers"
+        packshortname = "Aiden_Server_009"
     else:
-        packname = f"GujjuBot{userid}"
-        packshortname = f"GujjuBot_{userid}_ns"
-    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+        packname = f"@AID3N_PEARCE"
+        packshortname = f"Ub_{userid}_new"
+    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, Lemme Just Prepare It For uohh ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "GujjuBot_Sticker.png"
@@ -68,10 +68,10 @@ async def _(event):
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{userid}'s @AnimatedStickersGroup"
-        if userid == 948408212:
-            packshortname = "Jayu_Animated"
+        if userid == 636052499:
+            packshortname = "Aiden_Animated"
         else:
-            packshortname = f"GujjuBot_{userid}_an" # format: Uni_Borg_userid
+            packshortname = f"UserBot_{userid}_an" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
         await event.edit("Invalid message type")
         return
