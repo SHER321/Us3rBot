@@ -121,8 +121,8 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"Please Wait For Few Hours Or Minutes... {afk_since}\nWhere Is He: Teroku Kyu Batoa " + \
-            f"\n\n__ I'll back Soon __\n**REASON**: {reason}" \
+        message_to_reply = f"This User Has Gone Offline,Please Don't Reply To This Message :)"
+                         f"\n I'll Be Back In Few Hours,I Am Offline Coz---> {reason}"
             if reason \
             else f"**Important Notice**\n\n[This User Is Ded Forever...](https://telegra.ph//file/a53fa950ff31781d5930a.jpg) "
         msg = await event.reply(message_to_reply)
