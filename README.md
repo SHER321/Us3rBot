@@ -1,4 +1,4 @@
-# GujjuBot
+# Us3RBot
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram.
 
 # FORK AT YOUR OWN RISK
@@ -12,7 +12,7 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/japarmar/GujjuBot
+git clone https://github.com/Aiden232/Us3rBot
 cd GujjuBot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
