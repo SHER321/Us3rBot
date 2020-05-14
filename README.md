@@ -13,7 +13,7 @@ This is a userbot made for telegram. I made this userbot with help of all other 
 Simply clone the repository and run the main file:
 ```sh
 git clone https://github.com/Aiden232/Us3rBot
-cd GujjuBot
+cd Us3rBot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
