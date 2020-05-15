@@ -42,7 +42,7 @@ async def _(event):
     try:
         dc_id, location = get_input_location(replied_user.profile_photo)
     except Exception as e:
-        dc_id = "`Need a Profile Picture to check **this**`"
+        dc_id = "Set A Profile Pic,BC"
         location = str(e)
     caption = """<b>Extracted Userdata From Aiden's DATABASE<b>
 <b>ID</b>: <code>{}</code>
@@ -52,9 +52,9 @@ async def _(event):
 <b>DC ID</b>: {}
 <b>Number of PPs</b>: {}
 <b>Restricted?</b> : {}
-<b>Verified</b>: {}
-<b>Bot(nub)</b>: {}
-<b>Groups in Common</b>: {}
+<b>Verified(None)</b>: {}
+<b>Bot</b>: {}
+<b>Groups in Common With This gey</b>: {}
 """.format(
         user_id,
         user_id,
