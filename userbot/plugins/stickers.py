@@ -50,13 +50,13 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    #packname = f"@Aid3N_Pearce Str Pack"
+    #packname = f"@Ankith_m Str Pack"
     #packshortname = f"AidenID_{userid}_ns"  # format: Uni_Borg_userid
-    if userid == 636052499:
-        packname = f"@AID_3N's Kang Pack"
+    if userid == 919584113:
+        packname = f"@Ankith_m's Kang Pack"
         packshortname = "Aid3n_Sticker_001"
     else:
-        packname = f"@AID3N_PEARCE"
+        packname = f"@Ankith_m"
         packshortname = f"Ub_{userid}_new"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, Lemme Just Prepare It For uohh ヽ༼ ಠ益ಠ ༽ﾉ`")
 
@@ -67,9 +67,9 @@ async def _(event):
     if is_a_s:
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
-        packname = "@AID_3N's Anim Sticker"
-        if userid == 636052499:
-            packshortname = "Aiden_Animated"
+        packname = "@Ankith_m's Anim Sticker"
+        if userid == 919584113:
+            packshortname = "Ankith_Animated"
         else:
             packshortname = f"UserBot_{userid}_an" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
