@@ -51,10 +51,10 @@ async def _(event):
     pack = 1
     userid = event.from_id
     #packname = f"@Ankith_m Str Pack"
-    #packshortname = f"AidenID_{userid}_ns"  # format: Uni_Borg_userid
+    #packshortname = f"AnkithID_{userid}_ns"  # format: Uni_Borg_userid
     if userid == 919584113:
         packname = f"@Ankith_m's Kang Pack"
-        packshortname = "Aid3n_Sticker_001"
+        packshortname = "Ankith_Sticker_001"
     else:
         packname = f"@Ankith_m"
         packshortname = f"Ub_{userid}_new"
